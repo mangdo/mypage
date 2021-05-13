@@ -447,7 +447,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  padding: 30px 0;
+  padding: 0px 0;
 }
 
 .about .content h3 {
@@ -507,7 +507,8 @@ section {
 .about .image {
   background: url("../img/me.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 400px;
+  height: 300px;
+  margin-left: 5%;
 }
 
 @media (max-width: 991px) {
@@ -525,40 +526,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
-}
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #2F3540;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #fbeaf1;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #dd5a92;
-}
 
 /*--------------------------------------------------------------
 # Resume
@@ -1194,8 +1162,44 @@ section {
 }
 
 /* --------------------------------------------------------------
-# animate on scroll 효과
+# Animate on scroll 효과
 --------------------------------------------------------------*/
 .text-slider-items {
   display: none;
+}
+
+/* --------------------------------------------------------------
+# Channel
+--------------------------------------------------------------*/
+.channel {
+  padding-top: 20px;
+}
+
+.channel .channel-link h5{
+  color :#4782c1;
+  font-weight: 600;
+}
+
+.channel .channel-link a{
+  color :#5a656e;
+}
+.channel .channel-link a:hover{
+  color: #f3bbc8;;
+}
+/* --------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills-content{
+  padding-left: 50px;
+}
+.skills-content .skill{
+  width:80px;
+  height:110px;
+  line-height: 110px;
+  margin-left: 30px;
+}
+.skills-content .skill img{
+  width:80px;
+  max-height:110px;
+  vertical-align:middle;
 }
