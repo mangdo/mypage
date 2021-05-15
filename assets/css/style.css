@@ -615,37 +615,6 @@ section {
   color: #4782c1;
   font-family: "Poppins", sans-serif;
 }
-/*
-.awards .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  left: 0px;
-  top: 5px;
-  background: #7ca9da;
-  border: 2px solid #7ca9da;
-}
-*/
-
-/*--------------------------------------------------------------
-# certificate
---------------------------------------------------------------*/
-.certificate h4{
-  font-size: 18px;
-  font-weight: 600;
-  color: #2F3540;
-}
-
-.certificate .award-info{
-  font-size: 14px;
-}
-
-.certificate .certificate-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  position: relative;
-}
 
 /*--------------------------------------------------------------
 # Services
@@ -867,6 +836,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel {
+  padding-right: 30px;
   position: relative;
   z-index: 1;
 }
@@ -894,6 +864,7 @@ section {
   /*
   position: absolute;
   bottom: 0px;
+  margin-left: 20px;
   */
   right: 0;
   
@@ -948,6 +919,20 @@ section {
 .portfolio-details .portfolio-info .slash{
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-button {
+  background: #7ca9da;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.portfolio-details .portfolio-button:hover {
+  background: #f3bbc8;
 }
 
 /*--------------------------------------------------------------
