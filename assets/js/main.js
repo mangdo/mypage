@@ -143,7 +143,7 @@
   // Init aos
   function aos_init() {
     AOS.init({
-      duration: 10000,
+      duration: 1000,
       once: true
     });
   }

@@ -401,8 +401,8 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
-  background-color: #fcf2f7;
+  padding: 20px 0;
+  background-color: #BBD6F3;
   min-height: 40px;
 }
 
@@ -418,6 +418,12 @@ section {
   padding: 0;
   margin: 0;
   font-size: 14px;
+}
+.breadcrumbs ol li a {
+  color: #6c757d;
+}
+.breadcrumbs ol li a:hover {
+  color: #ffffff;
 }
 
 .breadcrumbs ol li + li {
@@ -1020,4 +1026,40 @@ section {
   width:80px;
   max-height:110px;
   vertical-align:middle;
+}
+
+/* --------------------------------------------------------------
+# My Part
+--------------------------------------------------------------*/
+
+.inner-page .title{
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.inner-page .sub-title{
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.inner-page .mypart-description{
+  padding-left: 30px;
+}
+
+.inner-page img{
+  width: 700px;
+}
+
+.inner-page .title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #4782c1;
+  bottom: 0;
+  left: 0;
 }
