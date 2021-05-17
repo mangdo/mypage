@@ -1063,3 +1063,13 @@ section {
   bottom: 0;
   left: 0;
 }
+
+.inner-page .mypart-description img{
+  width:85%;
+}
+
+@media (max-width: 1024px) {
+  .inner-page .mypart-description img{
+    width:100%;
+  }
+}
